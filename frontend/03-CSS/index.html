@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+
+    <!-- External CSS -->
+     <link rel="stylesheet" href="css/style.css">
+
+    <!-- Internal CSS -->
+     <style>
+        p{
+            color: purple;
+            font-size: 40px;
+        }
+     </style>
+</head>
+<body>
+    <!-- Inline CSS na linha do HTML -->
+     <h1 style="color: #8a8211; font-size: 50px">Cor e tamnho da fonte</h1>
+     <p style="color: red;">Este é um parágrafo vermelho</p>
+
+    <!-- Internal CSS no mesmo documento HTML -->
+      <p>Parágrafo com Estilo do Internal</p>
+      <p>Aproveitando a regra do outro parágrafo do internal</p>
+    <!-- External CSS, vem de outra pasta externa -->
+      <h3>Título com estilo do external</h3>
+      
+    <!-- Classe -->
+       <p class="Paragrafo">Esse é um parágrafo com estilo da class</p>
+       <p class="paragrafo">Esse é o outro com estilo da class</p>
+
+    <!-- ID -->
+      <h2 id="titulocomid">Título com estilo do id</h2>
+
+    <!-- Regra de ordem CSS -->
+      <h4 id="id-titulo" class="class-titulo">Título 1</h4>
+      <h4 class="class-titulo">Título 2</h4>
+      <h4>Título 3</h4>
+
+</body>
+</html>
